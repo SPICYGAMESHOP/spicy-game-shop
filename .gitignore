@@ -39,3 +39,18 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Local database files
+/data/
+*.db
+*.db-shm
+*.db-wal
+
+# Secrets and credentials
+.env
+.env.*
+!.env.example
+
+# Deployment and build output
+.vercel/
+.wrangler/
